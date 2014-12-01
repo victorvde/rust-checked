@@ -1,0 +1,4 @@
+[package]
+name = "checked"
+version = "0.0.1"
+authors = ["Victor van den Elzen"]
