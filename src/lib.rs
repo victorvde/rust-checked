@@ -1,7 +1,8 @@
-#![feature(slicing_syntax,macro_rules)]
+#![feature(macro_rules)]
 use std::num::{Int, SignedInt};
 use std::fmt::{Show, Formatter, Result};
 
+#[deriving(Copy)]
 pub struct Checked<T : Int>(pub T);
 
 impl<T : Int> Checked<T> {
