@@ -124,7 +124,7 @@ fn test_shl_fail() {
 }
 
 }
-))
+));
 
 macro_rules! test_signed(
     ($t:ty, $n:ident) => (
@@ -168,22 +168,22 @@ fn test_shl_fail_s() {
 }
 
 }
-))
+));
 
-test_it!(u8, test_u8)
-test_it!(u16, test_u16)
-test_it!(u32, test_u32)
-test_it!(u64, test_u64)
-test_it!(uint, test_uint)
+test_it!(u8, test_u8);
+test_it!(u16, test_u16);
+test_it!(u32, test_u32);
+test_it!(u64, test_u64);
+test_it!(uint, test_uint);
 
-test_it!(i8, test_i8)
-test_it!(i16, test_i16)
-test_it!(i32, test_i32)
-test_it!(i64, test_i64)
-test_it!(int, test_int)
+test_it!(i8, test_i8);
+test_it!(i16, test_i16);
+test_it!(i32, test_i32);
+test_it!(i64, test_i64);
+test_it!(int, test_int);
 
-test_signed!(i8, test_i8_s)
-test_signed!(i16, test_i16_s)
-test_signed!(i32, test_i32_s)
-test_signed!(i64, test_i64_s)
-test_signed!(int, test_int_s)
+test_signed!(i8, test_i8_s);
+test_signed!(i16, test_i16_s);
+test_signed!(i32, test_i32_s);
+test_signed!(i64, test_i64_s);
+test_signed!(int, test_int_s);
