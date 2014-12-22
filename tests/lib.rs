@@ -80,8 +80,6 @@ fn test_div() {
     assert_eq!(*(w / x), max);
 }
 
-// TODO: test div fail for signed
-
 #[test]
 fn test_bitand() {
    let x : Checked<$t> = Checked(5);
@@ -158,7 +156,6 @@ fn test_shl_s() {
     let x : Checked<$t> = Checked(-1);
     assert_eq!(x << 1, Checked(-2));
 }
-
 
 #[test]
 #[should_fail]
